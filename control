@@ -1,0 +1,18 @@
+Source: #PACKAGE#
+Section: science
+Priority: extra
+Maintainer: #USERNAME# <#EMAIL#>
+Build-Depends: #BUILD_DEPS#
+Standards-Version: 3.9.8
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: git://github.com/kernsuite-debian/#PACKAGE#.git
+Vcs-Browser: http://github.com/kernsuite-debian/#PACKAGE
+
+Package: #PACKAGE#
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+
+
